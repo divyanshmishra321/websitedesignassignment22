@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="form1.css">
+
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+    <h1>Registration Form</h1>
+
+
+    <form action="C:\Users\DIVYANSH\Desktop\web design assignment 2\submitform.html" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name">
+            <label for=""> Name:</label> <input type="text" name="fname" required><span class="formerror"> </span>
+        </div>
+        <div class="formdesign" id="age">
+            <label for="">Age:</label> <input type="text" name="fage" required><span class="formerror"> </span>
+        </div>
+
+        <div class="formdesign" id="address">
+            <label for="">Address :</label> <input type="text" name="fadd" required><span class="formerror"> </span>
+        </div>
+
+
+
+        <div class="formdesign" id="singer">
+            <label for="">Favourite Singer : </label> <input type="text" name="fsing"><span class="formerror"> </span>
+        </div>
+
+        <div class="formdesign" id="movie">
+            <label for="">Favourite Movie :</label> <input type="text" name="fmov"><span class="formerror"> </span>
+        </div>
+
+        <div class="formdesign" id="subject">
+            <label for="">Favourite Subject :</label> <input type="text" name="fsub"><span class="formerror"> </span>
+        </div>
+
+        <div class="formdesign" id="pass">
+            <label for="">Password: </label><input type="password" name="fpass" required><span class="formerror">
+            </span>
+        </div>
+
+
+
+        <div class="formdesign radiobtn" id="radiobtnn">
+            <label for="" id="favlang"> Favourite Language:</label>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+
+
+
+
+
+        <input onclick="return alerton()" class="but" type="submit" value="Validate">
+        <br>
+        <h2>
+            Validate before Submit
+        </h2>
+
+        <a href="submitform.html"><input class="but" type="button" value="Submit"></a><br>
+
+
+
+
+
+    </form>
+
+
+</body>
+<script src="form1.js"></script>
+
+</html>

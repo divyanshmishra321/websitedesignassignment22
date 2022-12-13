@@ -1,0 +1,113 @@
+body {
+  /* margin: 0;
+    padding: 0; */
+  padding: 1rem 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  transition: background 2s;
+}
+
+.paragraph2 {
+  background-color: rgb(183, 255, 231);
+  color: blue;
+  padding: 1rem;
+  margin: 2vw;
+}
+#task {
+  background-color: rgb(226, 241, 255);
+  padding: 1rem;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 2px 2px 20px 10px rgba(32, 32, 32, 0.3);
+  border-radius: 40px;
+}
+
+.paragraph {
+  padding: 1rem;
+  margin: 2rem;
+}
+
+fieldset {
+  width: 375px;
+  background-color: aliceblue;
+}
+
+button {
+  width: 5ex;
+  text-align: center;
+  padding: 1px 3px;
+
+  background-color: aquamarine;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+button:hover {
+  width: 5ex;
+  text-align: center;
+  padding: 1px 3px;
+
+  background-color: rgb(211, 236, 228);
+  border: 2px solid rgba(0, 0, 0, 0.58);
+  border-radius: 5px;
+}
+
+#regbutton {
+  font-size: larger;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgb(120, 197, 255);
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+#regbutton:hover {
+  font-size: larger;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgb(50, 163, 255);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.regbutton {
+  padding: 10px;
+  margin: 20px;
+}
+
+.formatting {
+  background-color: aliceblue;
+  padding: 3rem;
+  margin-top: 4rem;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 2px 2px 20px 10px rgba(32, 32, 32, 0.3);
+  border-radius: 40px;
+}
+
+#editor {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin: 30px;
+  background-color: aliceblue;
+}
+
+#editorbtn {
+  width: 40%;
+  height: fit-content;
+  background-color: rgb(238, 232, 232);
+}
+h4 {
+  font-size: 20px;
+  color: brown;
+}
+p {
+  font-size: 15px;
+}
+
+
